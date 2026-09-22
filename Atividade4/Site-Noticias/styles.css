@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+* {
+    font-family: Google Sans;
+    padding: 0px;
+    margin: 0;
+}
+
+img {
+    width: 300px;
+    margin-left: 40px
+}
+
+.navegation {
+    background-color: rgb(217, 241, 255);
+}
+
+.nav {
+    height: 45px;
+    background-color: cornflowerblue;
+    width: 100% ;
+    list-style: none ;
+    text-align: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+}
+
+.container-box {
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-areas:
+        'a b b'
+        'a c c' 
+}
+.box-a {
+    text-align: center;
+    background-color: rgb(206, 208, 217);
+    border-radius: 3%;
+}
+
+.box-b {
+    text-align: center;
+    background-color: rgb(193, 228, 255);
+    border-radius: 3%;
+}
+
+.box-c {
+     text-align: center;
+    background-color: rgb(159, 169, 249);
+    border-radius: 3%;
+}
+.conteudo {
+    padding: 10px;
+}
+
+h3 {
+    color: rgb(55, 4, 104);
+    text-align: left;
+    padding: 10px;
+}
+
+button {
+    width: 280px;
+    padding: 5px;
+    color: aliceblue;
+    background-color: rgb(111, 71, 149);
+    border-radius: 10px;
+
+}
+.text {
+    padding: 10px;
+}
